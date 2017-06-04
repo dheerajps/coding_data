@@ -1,0 +1,18 @@
+# Folder view configuration files
+Desktop.ini
+*.DS_Store
+*/.DS_Store
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Compiled Python files
+*.pyc
+
+# Application specific files
+
+
