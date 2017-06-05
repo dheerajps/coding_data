@@ -15,7 +15,7 @@ PYTHON -  python 2.7
 > `/answers` - Contains the output generated
 
 ## TO RUN THE INDIVIDUAL MODULES
-> In the package 
-> `python weather_problem1 -i ../../wx_data -o ../../answers/MissingPrcpData.out`
-> `python weather_problem2 -i ../../wx_data -o ../../answers/YearlyAverages.out`
+> In the weather package 
+> `python weather_problem1.py -i ../../wx_data/ -o ../../answers/MissingPrcpData.out`
+> `python weather_problem2.py -i ../../wx_data/ -o ../../answers/YearlyAverages.out`
 
