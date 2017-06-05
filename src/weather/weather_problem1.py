@@ -28,7 +28,7 @@ def main():
 
     parser = argparse.ArgumentParser(description='program1')
     parser.add_argument('-i','--input', help='Input Directory path. eg: path/to/input/files/', required=True)
-    parser.add_argument('-o','--output', help='Output filename name. eg:path/to/output/filename.out', required=True)
+    parser.add_argument('-o','--output', help='Output filename name. eg: path/to/output/filename.out', required=True)
     args =  parser.parse_args()
     if not os.path.isdir(args.input):
         print "INPUT DIRECTORY ' {} ' NOT PRESENT".format(args.input)
